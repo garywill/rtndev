@@ -48,6 +48,7 @@ CONFIGURE_ARGS += \
 	--with-paranoidmsg \
 	--with-mysql=$(STAGING_DIR)/opt \
 	--with-tls \
+	--with-rfc2640 \
 	--with-certfile=/opt/etc/ssl/private/pure-ftpd.pem
 
 define Package/pureftpd/conffiles
